@@ -1,0 +1,20 @@
+input[type='range'] {
+  @apply accent-primary;
+}
+.react-colorful {
+  @apply !w-full !h-40 border-none;
+}
+.react-colorful__saturation {
+  @apply !rounded-t-lg;
+}
+.react-colorful__hue {
+  @apply !rounded-b-lg !h-4;
+}
+/* Hide scrollbar for cleaner sidebar */
+aside::-webkit-scrollbar {
+  display: none;
+}
+aside {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
